@@ -119,7 +119,7 @@ window.gibinit = function() {
         window.gibSoundLoopStart(true);
         setTimeout(function() {
           window.gibSoundLoopEnd();
-        }, (10 * 1000));
+        }, (4 * 1000));
       }
 
       if (window.gibRetryCountdownNow > 0) {
@@ -161,7 +161,7 @@ window.gibinit = function() {
         window.gibSoundLoopStart(true);
         setTimeout(function() {
           window.gibSoundLoopEnd();
-        }, (10 * 1000));
+        }, (4 * 1000));
         return false;
       }
 
@@ -173,7 +173,7 @@ window.gibinit = function() {
         window.gibSoundLoopStart(true);
         setTimeout(function() {
           window.gibSoundLoopEnd();
-        }, (10 * 1000));
+        }, (4 * 1000));
         return false;
       }
 
