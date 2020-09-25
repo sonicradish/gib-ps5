@@ -81,7 +81,7 @@ window.gibinit = function() {
           window.gibSoundLoopStart(true);
           setTimeout(function() {
             window.gibSoundLoopEnd();
-          }, (10 * 1000));
+          }, (4 * 1000));
           return false;
         }
 
